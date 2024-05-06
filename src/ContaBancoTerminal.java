@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ContaTerminal {
+public class ContaBancoTerminal {
     public static void main(String[] args) {
 
         //TODO: Conhecer e importar a classe Scanner
