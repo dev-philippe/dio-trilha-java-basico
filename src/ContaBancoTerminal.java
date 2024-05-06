@@ -10,9 +10,9 @@ public class ContaBancoTerminal {
 
         // Obter pelo Scanner os valores  digitados no terminal
 
-        // Exxibir a mensagem da conta criada
+        // Exibir a mensagem da conta criada
 
-       Scanner teclado = new Scanner(System.in);
+        Scanner teclado = new Scanner(System.in);
 
         System.out.println("Por favor digite o numero da conta: ");
         int numConta = teclado.nextInt();
@@ -28,17 +28,6 @@ public class ContaBancoTerminal {
 
         System.out.println("Ola " + nomeCliente + ",obrigado por criar uma conta em nosso banco,sua agência " + NumAgencia +
                 ",sua conta é " + numConta + " seu saldo " + saldo + " ja esta disponivel para saque.");
-
-
-
-
-
-
-
-
-
-
-
 
 
     }
