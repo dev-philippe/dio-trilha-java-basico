@@ -1,0 +1,83 @@
+"Common-Cleaner@1037" tid=0x12 nid=NA waiting
+  java.lang.Thread.State: WAITING
+	  at jdk.internal.misc.Unsafe.park(Unsafe.java:-1)
+	  at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1759)
+	  at java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+	  at java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+	  at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+	  at jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+	  at java.lang.Thread.run(Thread.java:1589)
+	  at jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:186)
+
+"main@1" tid=0x1 nid=NA runnable
+  java.lang.Thread.State: RUNNABLE
+	  at dio_debbunging.CalculadoraDeMedias.main(CalculadoraDeMedias.java:11)
+
+"Reference Handler@1033" tid=0x8 nid=NA runnable
+  java.lang.Thread.State: RUNNABLE
+	  at java.lang.ref.Reference.waitForReferencePendingList(Reference.java:-1)
+	  at java.lang.ref.Reference.processPendingReferences(Reference.java:245)
+	  at java.lang.ref.Reference$ReferenceHandler.run(Reference.java:207)
+
+"Finalizer@1034" tid=0x9 nid=NA waiting
+  java.lang.Thread.State: WAITING
+	  at java.lang.Object.wait0(Object.java:-1)
+	  at java.lang.Object.wait(Object.java:366)
+	  at java.lang.Object.wait(Object.java:339)
+	  at java.lang.ref.NativeReferenceQueue.await(NativeReferenceQueue.java:48)
+	  at java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:158)
+	  at java.lang.ref.NativeReferenceQueue.remove(NativeReferenceQueue.java:89)
+	  at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:173)
+
+"Signal Dispatcher@1035" tid=0xa nid=NA runnable
+  java.lang.Thread.State: RUNNABLE
+
+"Attach Listener@1036" tid=0xb nid=NA runnable
+  java.lang.Thread.State: RUNNABLE
+	 Incompatible thread state: thread not suspended
+
+"Notification Thread@737" tid=0x16 nid=NA runnable
+  java.lang.Thread.State: RUNNABLE
+
+"Common-Cleaner@1058" tid=0x12 nid=NA waiting
+  java.lang.Thread.State: WAITING
+	  at jdk.internal.misc.Unsafe.park(Unsafe.java:-1)
+	  at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1759)
+	  at java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+	  at java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+	  at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+	  at jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+	  at java.lang.Thread.run(Thread.java:1589)
+	  at jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:186)
+
+"main@1" tid=0x1 nid=NA runnable
+  java.lang.Thread.State: RUNNABLE
+	  at dio_debbunging.CalculadoraDeMedias.main(CalculadoraDeMedias.java:11)
+
+"Reference Handler@1054" tid=0x8 nid=NA runnable
+  java.lang.Thread.State: RUNNABLE
+	  at java.lang.ref.Reference.waitForReferencePendingList(Reference.java:-1)
+	  at java.lang.ref.Reference.processPendingReferences(Reference.java:245)
+	  at java.lang.ref.Reference$ReferenceHandler.run(Reference.java:207)
+
+"Finalizer@1055" tid=0x9 nid=NA waiting
+  java.lang.Thread.State: WAITING
+	  at java.lang.Object.wait0(Object.java:-1)
+	  at java.lang.Object.wait(Object.java:366)
+	  at java.lang.Object.wait(Object.java:339)
+	  at java.lang.ref.NativeReferenceQueue.await(NativeReferenceQueue.java:48)
+	  at java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:158)
+	  at java.lang.ref.NativeReferenceQueue.remove(NativeReferenceQueue.java:89)
+	  at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:173)
+
+"Signal Dispatcher@1056" tid=0xa nid=NA runnable
+  java.lang.Thread.State: RUNNABLE
+
+"Attach Listener@1057" tid=0xb nid=NA runnable
+  java.lang.Thread.State: RUNNABLE
+
+"Notification Thread@737" tid=0x16 nid=NA runnable
+  java.lang.Thread.State: RUNNABLE
+
